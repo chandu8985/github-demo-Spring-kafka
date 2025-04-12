@@ -1,0 +1,10 @@
+bael:
+  property: devValue
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    password: password
+    url: jdbc:h2:dev
+    username: SA

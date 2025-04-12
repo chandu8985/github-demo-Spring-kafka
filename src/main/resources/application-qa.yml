@@ -1,0 +1,10 @@
+bael:
+  property: qaValue
+spring:
+  config:
+    activate:
+      on-profile: qa
+  datasource:
+    password: password
+    url: jdbc:h2:qa
+    username: qaUser
