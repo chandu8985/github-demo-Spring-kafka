@@ -1,6 +1,7 @@
 package com.SpringBootApplication.CollegeStudentDetails.service;
 
 import com.SpringBootApplication.CollegeStudentDetails.entity.Department;
+import com.SpringBootApplication.CollegeStudentDetails.error.DepartmentNotFoundException;
 
 import java.util.List;
 
@@ -10,7 +11,7 @@ public interface DepartmentService {
 
  public  List<Department> fetchAllDepartments();
 
-    public Department fetchDepartmentById(Long departmentId);
+    public Department fetchDepartmentById(Long departmentId) throws DepartmentNotFoundException;
 
    public void deleteDepartmentItems(Long departmentId);
 
