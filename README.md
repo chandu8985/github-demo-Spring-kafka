@@ -40,6 +40,7 @@ git commit
 kafka-Project commands 
 
 
+
 # **Command	Purpose**
 
 1) zookeeper-server-start.bat	Start Zookeeper service
@@ -104,7 +105,7 @@ Describe topics
 bin/kafka-topics --bootstrap-server localhost:9092 --describe --topic NewTopic1
 
 Produce message
-
+ 
 bin/kafka-console-producer --broker-list localhost:9092 --topic NewTopic1
 
 consume message
@@ -114,3 +115,4 @@ bin/kafka-console-consumer --bootstrap-server localhost:9092 --topic NewTopic1 -
 Send CSV File data to kafka
 
 bin/kafka-console-producer --broker-list localhost:9092 --topic NewTopic1 <bin/customers.csv
+
