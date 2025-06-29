@@ -36,3 +36,21 @@ When you commit your changes, instead of using the -m flag for a short message, 
 Bash
 
 git commit
+
+kafka-Project commands 
+
+
+Command	Purpose
+zookeeper-server-start.bat	Start Zookeeper service
+kafka-server-start.bat	Start Kafka broker
+kafka-topics.bat --create	Create new Kafka topic
+kafka-console-producer.bat	Send messages to a topic
+kafka-console-consumer.bat	Consume messages from a topic
+--property print.*=true	Display metadata during consumption
+kafka-storage.bat random-uuid	Generate cluster UUID (for KRaft)
+--describe	View topic partition/replica info
+
+
+
+
+
