@@ -116,3 +116,20 @@ Send CSV File data to kafka
 
 bin/kafka-console-producer --broker-list localhost:9092 --topic NewTopic1 <bin/customers.csv
 
+🗂️ Kafka Producer – Java Project Structure
+
+kafka-producer/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── yourname/
+│       │           └── kafka/
+│       │               ├── producer/
+│       │               │   └── KafkaProducerApp.java
+│       │               └── config/
+│       │                   └── KafkaProducerConfig.java
+│       └── resources/
+│           └── application.properties
+├── pom.xml
+└── README.md
