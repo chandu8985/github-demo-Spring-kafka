@@ -41,16 +41,14 @@ kafka-Project commands
 
 
 Command	Purpose
-zookeeper-server-start.bat	Start Zookeeper service
-kafka-server-start.bat	Start Kafka broker
-kafka-topics.bat --create	Create new Kafka topic
-kafka-console-producer.bat	Send messages to a topic
-kafka-console-consumer.bat	Consume messages from a topic
---property print.*=true	Display metadata during consumption
-kafka-storage.bat random-uuid	Generate cluster UUID (for KRaft)
---describe	View topic partition/replica info
+1) zookeeper-server-start.bat	Start Zookeeper service
+2) kafka-server-start.bat	Start Kafka broker
+3) kafka-topics.bat --create to create new Kafka topic
+4) kafka-console-producer.bat	Send messages to a topic
+5) kafka-console-consumer.bat	Consume messages from a topic
+6) --property print.*=true	Display metadata during consumption
+7) kafka-storage.bat random-uuid	Generate cluster UUID (for KRaft)
+8) --describe	View topic partition/replica info
 
 
-
-
-
+![img_1.png](img_1.png)
