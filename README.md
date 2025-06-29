@@ -38,6 +38,31 @@ Bash
 git commit
 
 kafka-Project commands 
+🗂️ Standard Spring Boot Project Structure
+
+spring-boot-app/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── yourname/
+│       │           └── project/
+│       │               ├── SpringBootApp.java          # Main class with @SpringBootApplication
+│       │               ├── controller/
+│       │               │   └── MyController.java       # REST endpoints
+│       │               ├── service/
+│       │               │   └── MyService.java          # Business logic
+│       │               ├── repository/
+│       │               │   └── MyRepository.java       # Data access layer
+│       │               ├── model/
+│       │               │   └── MyEntity.java           # JPA entities
+│       │               └── config/
+│       │                   └── KafkaConfig.java        # Kafka or other app configs
+│       └── resources/
+│           ├── application.properties                  # App configuration
+│           └── logback.xml                             # Logging config (optional)
+├── pom.xml                                              # Maven dependencies
+└── README.md                                            # Project overview
 
 
 
